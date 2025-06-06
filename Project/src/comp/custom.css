@@ -1,0 +1,11 @@
+/* Sidebar.css */
+.sidebar {
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .sidebar.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
